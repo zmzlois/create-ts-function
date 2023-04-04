@@ -11,7 +11,7 @@ The clean, typescript, backend server template you have been looking for. Nothin
 - prettier
 - ts-node
 - eslint
-- body-parser
+- body-parser & superjson
 - dotenv
 
 ## Dependency updates
