@@ -2,21 +2,32 @@
 
 The clean, typescript, backend server template
 
-# Dependency updates
+## Dependency updates
 
-use
+Use
 
+```sh
+# Unix (MacOS & Linux)
+pnpx npm-check-updates -u && pnpm install
 ```
-pnpm install -g npm-check-updates
+
+OR
+
+```sh
+# Powershell (Windows)
+pnpx npm-check-updates -u; pnpm install
 ```
 
 to update and install dependencies
 
 ---
 
-Change your tsconfig.json to below if you want to interact with dom
+## Working with DOM
 
-```
+Change your `tsconfig.json` to below if you want to interact with dom.
+
+```json
+//tsconfig.json
 {
   "compilerOptions": {
     "target": "ES6",
@@ -35,7 +46,8 @@ Change your tsconfig.json to below if you want to interact with dom
     "src/**/*.ts",
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "dist"
   ]
 }
 ```

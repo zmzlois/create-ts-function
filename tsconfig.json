@@ -1,5 +1,7 @@
+// This is for pure nodeJS+express
+// if you are interacting with domn and using ES2015+ Rules, check README
 {
-    "extends": "@tsconfig/node18/tsconfig.json",
+    "extends": "@tsconfig/node18/tsconfig.json", // Shows error? Will be fixed after pnpm install
     "include": [
         "src/**/*.ts"
     ],
