@@ -6,8 +6,12 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.post('/hello', (req, res) => {
-  res.sendStatus(200).send({ message: 'Hello World!' });
+app.get('/hello', (req, res) => {
+  res.send({ message: 'Hello World!' });
 });
 
-app.listen(port, () => console.log(`Server is listening on port ${port}!`));
+app.listen(port, () =>
+  console.log(
+    `Server is listening on port ${port}!\nVisit http://localhost:${port}/hello to see a message.`
+  )
+);
