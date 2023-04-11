@@ -14,6 +14,10 @@ The clean, typescript, backend server template you have been looking for. Nothin
 - superjson
 - dotenv
 
+## Copy .env-example to .env
+
+Copy .env-example to .env and edit the new file to add your environment variables. .env is already ignored in .gitignore
+
 ## Dependency updates
 
 Use
