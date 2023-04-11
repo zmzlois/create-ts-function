@@ -1,8 +1,18 @@
+<div align="center">
+
 # ts-server-template
 
 The clean, typescript, backend server template you have been looking for. Nothing included. No React Framework. No fullstack template. Only BARE ESSENTIALS. Finishing writing your backend, deploy it to [Railway](https://railway.app) or [fly.io](https://fly.io/) and you are good to go.
 
 **Clean. Simple.**
+
+## How to user this template? 
+Click 👇🏻 will take you to generate a repository with this template.
+
+<a href="https://github.com/zmzlois/ts-server-template/generate" target="_blank" rel="noreferrer noopener"> ![get-started](https://user-images.githubusercontent.com/54777542/224549654-6f2dc0ad-54e0-4827-b316-ebe264dbf007.svg)</a>
+
+
+<div align="left">
 
 ## This template includes
 
@@ -13,11 +23,6 @@ The clean, typescript, backend server template you have been looking for. Nothin
 - eslint
 - superjson
 - dotenv
-
-## How to user this template? 
-![Screenshot 2023-04-11 at 19 44 04](https://user-images.githubusercontent.com/79988376/231259312-8fbc0e26-f8e3-45ed-9adc-1198fa0b4e33.png)
-Click on `use this template` and -> `create a new repository`
-
 
 ## Copy .env-example to .env
 
@@ -40,5 +45,6 @@ pnpx npm-check-updates -u; pnpm install
 ```
 
 to update and install dependencies
-
+</div>
 ---
+</div>
