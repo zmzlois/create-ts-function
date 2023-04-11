@@ -6,8 +6,8 @@ The clean, typescript, backend server template you have been looking for. Nothin
 
 **Clean. Simple.**
 
-## How to user this template? 
-Click 👇🏻 will take you to generate a repository with this template.
+## Generate a repository with this template? 
+Click 👇🏻
 
 <a href="https://github.com/zmzlois/ts-server-template/generate" target="_blank" rel="noreferrer noopener"> ![get-started](https://user-images.githubusercontent.com/54777542/224549654-6f2dc0ad-54e0-4827-b316-ebe264dbf007.svg)</a>
 
