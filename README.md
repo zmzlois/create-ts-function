@@ -1,6 +1,6 @@
 <div align="center">
 
-# create-ts-server
+# create-ts-function
 
 The clean, typescript, backend server template you have been looking for. Nothing included. No React Framework. No fullstack template. Only BARE ESSENTIALS. Finishing writing your backend function, deploy it to [Railway](https://railway.app), [Supabase](https://supabase.com/edge-functions) or [fly.io](https://fly.io/) and you are good to go.
 
