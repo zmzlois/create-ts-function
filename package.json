@@ -1,5 +1,5 @@
 {
-  "name": "ts-server-template",
+  "name": "create-ts-server",
   "version": "1.0.0",
   "main": "dist/index.js",
   "private": true,
