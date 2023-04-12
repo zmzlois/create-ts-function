@@ -24,9 +24,9 @@ Click 👇🏻
 - superjson
 - dotenv
 
-## Copy .env-example to .env
+## Copy .env.example to .env
 
-Copy .env-example to .env and edit the new file to add your environment variables. .env is already ignored in .gitignore
+Copy .env.example to .env and edit the new file to add your environment variables. .env is already ignored in .gitignore
 
 ## Dependency updates
 
