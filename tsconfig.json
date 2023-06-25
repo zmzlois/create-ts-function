@@ -1,3 +1,13 @@
 {
-    "extends": "@tsconfig/recommended/tsconfig.json" // https://github.com/tsconfig/bases
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "compilerOptions": {
+    "module": "nodenext",
+    "lib": ["es2022", "esnext"],
+    "esModuleInterop": true,
+    "target": "es2022",
+    "outDir": "dist",
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }
